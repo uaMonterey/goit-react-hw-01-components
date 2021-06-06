@@ -1,16 +1,16 @@
-import React from 'react'
+// import React from 'react'
 
 //data
-import userData from './data/user.json'
-import friendsData from './data/firends.json'
-import statsData from './data/statistical-data.json'
-import transactionsData from './data/transactions.json'
+import userData from './data/user.json';
+import friendsData from './data/firends.json';
+import statsData from './data/statistical-data.json';
+import transactionsData from './data/transactions.json';
 
 //components
-import Profile from './components/Profile'
-import FriendList from './components/FriendList'
-import Statistics from './components/Statistics'
-import TransactionHistory from './components/TransactionHistory'
+import Profile from './components/Profile';
+import FriendList from './components/FriendList';
+import Statistics from './components/Statistics';
+import TransactionHistory from './components/TransactionHistory';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <Statistics stats={statsData} />
       <TransactionHistory transactions={transactionsData} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
