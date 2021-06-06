@@ -18,7 +18,6 @@ function App() {
       <Profile user={userData} />
       <FriendList friends={friendsData} />
       <Statistics title="Upload stats" stats={statsData} />
-      <Statistics stats={statsData} />
       <TransactionHistory transactions={transactionsData} />
     </div>
   );
